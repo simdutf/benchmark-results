@@ -1,0 +1,113 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+===========================
+testcases: 18
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 849690, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/arabic.utf16.txt
+Using ICU version 72.1
+   0.750 ins/byte,    0.263 cycle/byte,    7.600 GB/s (0.5 %),     2.002 GHz,    2.848 ins/cycle 
+   1.501 ins/char,    0.527 cycle/char,    3.800 Gc/s (0.5 %)     2.00 byte/char 111797.0 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 274418, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/chinese.utf16.txt
+   0.751 ins/byte,    0.284 cycle/byte,    7.055 GB/s (0.3 %),     2.006 GHz,    2.643 ins/cycle 
+   1.503 ins/char,    0.569 cycle/char,    3.527 Gc/s (0.3 %)     2.00 byte/char  38899.0 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 287666, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/czech.utf16.txt
+   0.751 ins/byte,    0.295 cycle/byte,    6.809 GB/s (1.4 %),     2.005 GHz,    2.551 ins/cycle 
+   1.503 ins/char,    0.589 cycle/char,    3.404 Gc/s (1.4 %)     2.00 byte/char  42249.0 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 775020, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/english.utf16.txt
+   0.750 ins/byte,    0.264 cycle/byte,    7.598 GB/s (0.5 %),     2.003 GHz,    2.847 ins/cycle 
+   1.501 ins/char,    0.527 cycle/char,    3.799 Gc/s (0.5 %)     2.00 byte/char 102007.0 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 168252, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.utf16.txt
+   0.752 ins/byte,    0.284 cycle/byte,    7.073 GB/s (0.2 %),     2.010 GHz,    2.648 ins/cycle 
+   1.505 ins/char,    0.568 cycle/char,    3.536 Gc/s (0.2 %)     2.00 byte/char  23789.0 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 869736, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.utf16.txt
+   0.750 ins/byte,    0.264 cycle/byte,    7.597 GB/s (0.4 %),     2.002 GHz,    2.847 ins/cycle 
+   1.501 ins/char,    0.527 cycle/char,    3.798 Gc/s (0.4 %)     2.00 byte/char 114487.0 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 402432, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.utf16.txt
+   0.751 ins/byte,    0.265 cycle/byte,    7.573 GB/s (0.6 %),     2.005 GHz,    2.837 ins/cycle 
+   1.502 ins/char,    0.530 cycle/char,    3.787 Gc/s (0.6 %)     2.00 byte/char  53138.0 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 286000, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/greek.utf16.txt
+   0.751 ins/byte,    0.299 cycle/byte,    6.707 GB/s (0.9 %),     2.005 GHz,    2.513 ins/cycle 
+   1.503 ins/char,    0.598 cycle/char,    3.354 Gc/s (0.9 %)     2.00 byte/char  42639.0 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 292704, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hebrew.utf16.txt
+   0.751 ins/byte,    0.304 cycle/byte,    6.587 GB/s (0.8 %),     2.005 GHz,    2.469 ins/cycle 
+   1.503 ins/char,    0.609 cycle/char,    3.293 Gc/s (0.8 %)     2.00 byte/char  44439.0 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 547918, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hindi.utf16.txt
+   0.751 ins/byte,    0.264 cycle/byte,    7.586 GB/s (0.6 %),     2.004 GHz,    2.842 ins/cycle 
+   1.501 ins/char,    0.528 cycle/char,    3.793 Gc/s (0.6 %)     2.00 byte/char  72228.0 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 237784, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/japanese.utf16.txt
+   0.752 ins/byte,    0.283 cycle/byte,    7.083 GB/s (0.2 %),     2.007 GHz,    2.652 ins/cycle 
+   1.503 ins/char,    0.567 cycle/char,    3.542 Gc/s (0.2 %)     2.00 byte/char  33569.0 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 145838, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/korean.utf16.txt
+   0.753 ins/byte,    0.284 cycle/byte,    7.070 GB/s (0.2 %),     2.011 GHz,    2.645 ins/cycle 
+   1.505 ins/char,    0.569 cycle/char,    3.535 Gc/s (0.2 %)     2.00 byte/char  20629.0 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 249390, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/persan.utf16.txt
+   0.751 ins/byte,    0.284 cycle/byte,    7.055 GB/s (0.2 %),     2.007 GHz,    2.642 ins/cycle 
+   1.503 ins/char,    0.569 cycle/char,    3.528 Gc/s (0.2 %)     2.00 byte/char  35349.0 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 547232, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.utf16.txt
+   0.751 ins/byte,    0.264 cycle/byte,    7.583 GB/s (0.6 %),     2.004 GHz,    2.841 ins/cycle 
+   1.502 ins/char,    0.529 cycle/char,    3.791 Gc/s (0.6 %)     2.00 byte/char  72168.0 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 624076, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/russian.utf16.txt
+   0.751 ins/byte,    0.264 cycle/byte,    7.590 GB/s (0.6 %),     2.004 GHz,    2.843 ins/cycle 
+   1.501 ins/char,    0.528 cycle/char,    3.795 Gc/s (0.6 %)     2.00 byte/char  82228.0 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 809518, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/thai.utf16.txt
+   0.750 ins/byte,    0.264 cycle/byte,    7.598 GB/s (0.5 %),     2.003 GHz,    2.847 ins/cycle 
+   1.501 ins/char,    0.527 cycle/char,    3.799 Gc/s (0.5 %)     2.00 byte/char 106538.0 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 370886, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/turkish.utf16.txt
+   0.751 ins/byte,    0.265 cycle/byte,    7.575 GB/s (0.6 %),     2.007 GHz,    2.835 ins/cycle 
+   1.502 ins/char,    0.530 cycle/char,    3.788 Gc/s (0.6 %)     2.00 byte/char  48959.0 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+validate_utf16+lsx, input size: 564840, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/vietnamese.utf16.txt
+   0.751 ins/byte,    0.264 cycle/byte,    7.589 GB/s (0.6 %),     2.004 GHz,    2.843 ins/cycle 
+   1.501 ins/char,    0.528 cycle/char,    3.794 Gc/s (0.6 %)     2.00 byte/char  74429.0 ns

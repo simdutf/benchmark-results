@@ -1,0 +1,115 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+===========================
+testcases: 18
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 533857, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/arabic.utf8.txt
+Using ICU version 72.1
+   0.001 ins/byte,    0.000 cycle/byte, 10643.878 GB/s (17.3 %),     2.034 GHz,    3.255 ins/cycle 
+   0.001 ins/char,    0.000 cycle/char, 8470.410 Gc/s (17.3 %)     1.26 byte/char     50.2 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 181321, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/chinese.utf8.txt
+   0.002 ins/byte,    0.001 cycle/byte, 2770.242 GB/s (0.6 %),     2.047 GHz,    2.664 ins/cycle 
+   0.003 ins/char,    0.001 cycle/char, 2096.279 Gc/s (0.6 %)     1.32 byte/char     65.5 ns
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 152721, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/czech.utf8.txt
+   0.003 ins/byte,    0.001 cycle/byte, 2384.519 GB/s (0.5 %),     2.045 GHz,    3.038 ins/cycle 
+   0.003 ins/char,    0.001 cycle/char, 2245.730 Gc/s (0.5 %)     1.06 byte/char     64.0 ns
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 390368, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/english.utf8.txt
+   0.003 ins/byte,    0.001 cycle/byte, 2624.874 GB/s (0.5 %),     2.044 GHz,    3.336 ins/cycle 
+   0.003 ins/char,    0.001 cycle/char, 2605.650 Gc/s (0.5 %)     1.01 byte/char    148.7 ns
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 86963, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.utf8.txt
+   0.005 ins/byte,    0.002 cycle/byte, 1268.087 GB/s (0.5 %),     2.041 GHz,    3.086 ins/cycle 
+   0.005 ins/char,    0.002 cycle/char, 1226.703 Gc/s (0.5 %)     1.03 byte/char     68.6 ns
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 446908, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.utf8.txt
+   0.005 ins/byte,    0.002 cycle/byte, 1029.001 GB/s (1.0 %),     2.031 GHz,    2.478 ins/cycle 
+   0.005 ins/char,    0.002 cycle/char, 1001.277 Gc/s (1.0 %)     1.03 byte/char    434.3 ns
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 205779, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.utf8.txt
+   0.011 ins/byte,    0.004 cycle/byte,  460.549 GB/s (0.3 %),     2.030 GHz,    2.513 ins/cycle 
+   0.011 ins/char,    0.005 cycle/char,  450.334 Gc/s (0.3 %)     1.02 byte/char    446.8 ns
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 181348, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/greek.utf8.txt
+   0.002 ins/byte,    0.001 cycle/byte, 3817.853 GB/s (0.4 %),     2.021 GHz,    2.958 ins/cycle 
+   0.002 ins/char,    0.001 cycle/char, 3010.505 Gc/s (0.4 %)     1.27 byte/char     47.5 ns
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 190114, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hebrew.utf8.txt
+   0.002 ins/byte,    0.001 cycle/byte, 3654.391 GB/s (0.6 %),     2.018 GHz,    2.781 ins/cycle 
+   0.002 ins/char,    0.001 cycle/char, 2813.174 Gc/s (0.6 %)     1.30 byte/char     52.0 ns
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 396593, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hindi.utf8.txt
+   0.001 ins/byte,    0.000 cycle/byte, 8605.510 GB/s (0.3 %),     2.018 GHz,    2.957 ins/cycle 
+   0.001 ins/char,    0.000 cycle/char, 5944.503 Gc/s (0.3 %)     1.45 byte/char     46.1 ns
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 164355, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/japanese.utf8.txt
+   0.002 ins/byte,    0.001 cycle/byte, 3566.272 GB/s (0.3 %),     2.018 GHz,    2.957 ins/cycle 
+   0.002 ins/char,    0.001 cycle/char, 2579.767 Gc/s (0.3 %)     1.38 byte/char     46.1 ns
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 97859, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/korean.utf8.txt
+   0.003 ins/byte,    0.001 cycle/byte, 1622.533 GB/s (0.8 %),     2.023 GHz,    2.648 ins/cycle 
+   0.004 ins/char,    0.002 cycle/char, 1209.003 Gc/s (0.8 %)     1.34 byte/char     60.3 ns
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 156209, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/persan.utf8.txt
+   0.002 ins/byte,    0.001 cycle/byte, 3002.666 GB/s (0.6 %),     2.018 GHz,    2.781 ins/cycle 
+   0.002 ins/char,    0.001 cycle/char, 2396.881 Gc/s (0.6 %)     1.25 byte/char     52.0 ns
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 280660, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.utf8.txt
+   0.043 ins/byte,    0.019 cycle/byte,  110.084 GB/s (1.0 %),     2.041 GHz,    2.334 ins/cycle 
+   0.044 ins/char,    0.019 cycle/char,  107.321 Gc/s (1.0 %)     1.03 byte/char   2549.5 ns
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 407095, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/russian.utf8.txt
+   0.001 ins/byte,    0.000 cycle/byte, 8103.913 GB/s (17.1 %),     2.090 GHz,    3.162 ins/cycle 
+   0.001 ins/char,    0.000 cycle/char, 6211.623 Gc/s (17.1 %)     1.30 byte/char     50.2 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 593589, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/thai.utf8.txt
+   0.001 ins/byte,    0.000 cycle/byte, 8479.843 GB/s (1.6 %),     2.043 GHz,    2.720 ins/cycle 
+   0.001 ins/char,    0.000 cycle/char, 5782.257 Gc/s (1.6 %)     1.47 byte/char     70.0 ns
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 195078, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/turkish.utf8.txt
+   0.001 ins/byte,    0.000 cycle/byte, 4141.646 GB/s (0.3 %),     2.017 GHz,    2.821 ins/cycle 
+   0.001 ins/char,    0.001 cycle/char, 3937.067 Gc/s (0.3 %)     1.05 byte/char     47.1 ns
+input detected as UTF8
+current system detected as lsx
+===========================
+convert_utf8_to_latin1_with_errors+lsx, input size: 319029, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/vietnamese.utf8.txt
+   0.001 ins/byte,    0.000 cycle/byte, 5997.314 GB/s (3.7 %),     2.011 GHz,    3.028 ins/cycle 
+   0.001 ins/char,    0.000 cycle/char, 5309.096 Gc/s (3.7 %)     1.13 byte/char     53.2 ns

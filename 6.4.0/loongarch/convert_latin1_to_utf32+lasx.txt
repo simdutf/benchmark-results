@@ -1,0 +1,29 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+===========================
+testcases: 4
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_latin1_to_utf32+lasx, input size: 82168, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.latin1.txt
+Using ICU version 72.1
+   0.535 ins/byte,    0.547 cycle/byte,    3.678 GB/s (1.7 %),     2.012 GHz,    0.978 ins/cycle 
+   0.535 ins/char,    0.547 cycle/char,    3.678 Gc/s (1.7 %)     1.00 byte/char  22339.0 ns
+input detected as unknown
+current system detected as lsx
+===========================
+convert_latin1_to_utf32+lasx, input size: 432305, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.latin1.txt
+   0.532 ins/byte,    0.545 cycle/byte,    3.676 GB/s (1.1 %),     2.002 GHz,    0.977 ins/cycle 
+   0.532 ins/char,    0.545 cycle/char,    3.676 Gc/s (1.1 %)     1.00 byte/char 117608.0 ns
+input detected as unknown
+current system detected as lsx
+===========================
+convert_latin1_to_utf32+lasx, input size: 199331, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.latin1.txt
+   0.533 ins/byte,    0.555 cycle/byte,    3.612 GB/s (1.9 %),     2.005 GHz,    0.960 ins/cycle 
+   0.533 ins/char,    0.555 cycle/char,    3.612 Gc/s (1.9 %)     1.00 byte/char  55180.0 ns
+input detected as unknown
+current system detected as lsx
+===========================
+convert_latin1_to_utf32+lasx, input size: 271743, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.latin1.txt
+   0.532 ins/byte,    0.545 cycle/byte,    3.678 GB/s (1.2 %),     2.004 GHz,    0.977 ins/cycle 
+   0.532 ins/char,    0.545 cycle/char,    3.678 Gc/s (1.2 %)     1.00 byte/char  73889.0 ns

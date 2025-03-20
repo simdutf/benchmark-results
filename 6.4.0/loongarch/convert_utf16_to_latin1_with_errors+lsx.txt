@@ -1,0 +1,113 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+===========================
+testcases: 18
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 849690, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/arabic.utf16.txt
+Using ICU version 72.1
+   0.000 ins/byte,    0.000 cycle/byte, 92977.405 GB/s (0.3 %),     1.970 GHz,    2.333 ins/cycle 
+   0.000 ins/char,    0.000 cycle/char, 46488.593 Gc/s (0.3 %)     2.00 byte/char      9.1 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 274418, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/chinese.utf16.txt
+   0.000 ins/byte,    0.000 cycle/byte, 30028.215 GB/s (0.3 %),     1.970 GHz,    2.333 ins/cycle 
+   0.000 ins/char,    0.000 cycle/char, 15013.998 Gc/s (0.3 %)     2.00 byte/char      9.1 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 287666, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/czech.utf16.txt
+   0.000 ins/byte,    0.000 cycle/byte, 31477.878 GB/s (0.5 %),     1.970 GHz,    3.556 ins/cycle 
+   0.000 ins/char,    0.000 cycle/char, 15738.830 Gc/s (0.5 %)     2.00 byte/char      9.1 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 775020, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/english.utf16.txt
+   0.002 ins/byte,    0.000 cycle/byte, 4679.366 GB/s (0.7 %),     2.035 GHz,    3.457 ins/cycle 
+   0.003 ins/char,    0.001 cycle/char, 2339.677 Gc/s (0.7 %)     2.00 byte/char    165.6 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 168252, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.utf16.txt
+   0.001 ins/byte,    0.000 cycle/byte, 8097.859 GB/s (0.3 %),     2.021 GHz,    2.786 ins/cycle 
+   0.001 ins/char,    0.000 cycle/char, 4048.881 Gc/s (0.3 %)     2.00 byte/char     20.8 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 869736, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.utf16.txt
+   0.001 ins/byte,    0.000 cycle/byte, 8864.963 GB/s (0.3 %),     2.028 GHz,    3.256 ins/cycle 
+   0.001 ins/char,    0.000 cycle/char, 4432.471 Gc/s (0.3 %)     2.00 byte/char     98.1 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 402432, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.utf16.txt
+   0.003 ins/byte,    0.001 cycle/byte, 2421.099 GB/s (0.3 %),     2.039 GHz,    3.437 ins/cycle 
+   0.006 ins/char,    0.002 cycle/char, 1210.543 Gc/s (0.3 %)     2.00 byte/char    166.2 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 286000, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/greek.utf16.txt
+   0.000 ins/byte,    0.000 cycle/byte, 31295.576 GB/s (0.3 %),     1.970 GHz,    2.333 ins/cycle 
+   0.000 ins/char,    0.000 cycle/char, 15647.679 Gc/s (0.3 %)     2.00 byte/char      9.1 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 292704, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hebrew.utf16.txt
+   0.000 ins/byte,    0.000 cycle/byte, 41404.738 GB/s (0.3 %),     1.980 GHz,    2.429 ins/cycle 
+   0.000 ins/char,    0.000 cycle/char, 20702.227 Gc/s (0.3 %)     2.00 byte/char      7.1 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 547918, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hindi.utf16.txt
+   0.000 ins/byte,    0.000 cycle/byte, 59955.977 GB/s (0.3 %),     1.970 GHz,    2.333 ins/cycle 
+   0.000 ins/char,    0.000 cycle/char, 29977.879 Gc/s (0.3 %)     2.00 byte/char      9.1 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 237784, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/japanese.utf16.txt
+   0.000 ins/byte,    0.000 cycle/byte, 26019.536 GB/s (0.4 %),     1.970 GHz,    2.333 ins/cycle 
+   0.000 ins/char,    0.000 cycle/char, 13009.658 Gc/s (0.4 %)     2.00 byte/char      9.1 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 145838, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/korean.utf16.txt
+   0.000 ins/byte,    0.000 cycle/byte, 20629.660 GB/s (0.3 %),     1.980 GHz,    2.429 ins/cycle 
+   0.000 ins/char,    0.000 cycle/char, 10314.689 Gc/s (0.3 %)     2.00 byte/char      7.1 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 249390, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/persan.utf16.txt
+   0.000 ins/byte,    0.000 cycle/byte, 35277.712 GB/s (0.3 %),     1.980 GHz,    2.429 ins/cycle 
+   0.000 ins/char,    0.000 cycle/char, 17638.715 Gc/s (0.3 %)     2.00 byte/char      7.1 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 547232, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.utf16.txt
+   0.006 ins/byte,    0.001 cycle/byte, 1381.245 GB/s (0.3 %),     2.032 GHz,    3.742 ins/cycle 
+   0.011 ins/char,    0.003 cycle/char,  690.617 Gc/s (0.3 %)     2.00 byte/char    396.2 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 624076, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/russian.utf16.txt
+   0.000 ins/byte,    0.000 cycle/byte, 68289.573 GB/s (0.4 %),     1.970 GHz,    2.333 ins/cycle 
+   0.000 ins/char,    0.000 cycle/char, 34144.677 Gc/s (0.4 %)     2.00 byte/char      9.1 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 809518, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/thai.utf16.txt
+   0.000 ins/byte,    0.000 cycle/byte, 93793.441 GB/s (0.5 %),     1.970 GHz,    2.647 ins/cycle 
+   0.000 ins/char,    0.000 cycle/char, 46896.605 Gc/s (0.5 %)     2.00 byte/char      8.6 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 370886, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/turkish.utf16.txt
+   0.000 ins/byte,    0.000 cycle/byte, 52464.051 GB/s (0.3 %),     1.980 GHz,    2.429 ins/cycle 
+   0.000 ins/char,    0.000 cycle/char, 26231.884 Gc/s (0.3 %)     2.00 byte/char      7.1 ns
+input detected as UTF16 little-endian
+current system detected as lsx
+===========================
+convert_utf16_to_latin1_with_errors+lsx, input size: 564840, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/vietnamese.utf16.txt
+   0.000 ins/byte,    0.000 cycle/byte, 65444.236 GB/s (0.4 %),     1.970 GHz,    2.647 ins/cycle 
+   0.000 ins/char,    0.000 cycle/char, 32722.002 Gc/s (0.4 %)     2.00 byte/char      8.6 ns
