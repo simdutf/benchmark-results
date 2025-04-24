@@ -1,0 +1,24 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+Using ICU version 72.1
+Compiler: GCC 14.2.0
+SIMDUTF version: 6.5.0
+System: arm64
+===========================
+testcases: 4
+input detected as UTF16 little-endian
+===========================
+utf8_length_from_latin1+arm64, input size: 82168, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.latin1.txt
+  22.540 GB/s (6.1 %)   22.537 Gc/s     1.00 byte/char   3645.5 ns
+input detected as unknown
+===========================
+utf8_length_from_latin1+arm64, input size: 432305, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.latin1.txt
+  22.361 GB/s (5.3 %)   22.323 Gc/s     1.00 byte/char  19333.0 ns
+input detected as unknown
+===========================
+utf8_length_from_latin1+arm64, input size: 199331, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.latin1.txt
+  22.460 GB/s (6.9 %)   22.454 Gc/s     1.00 byte/char   8875.0 ns
+input detected as unknown
+===========================
+utf8_length_from_latin1+arm64, input size: 271743, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.latin1.txt
+  22.412 GB/s (6.1 %)   22.369 Gc/s     1.00 byte/char  12125.0 ns

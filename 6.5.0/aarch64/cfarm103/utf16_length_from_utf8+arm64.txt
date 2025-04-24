@@ -1,0 +1,80 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+Using ICU version 72.1
+Compiler: GCC 14.2.0
+SIMDUTF version: 6.5.0
+System: arm64
+===========================
+testcases: 18
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 533857, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/arabic.utf8.txt
+  27.143 GB/s (4.3 %)   27.143 Gc/s     1.00 byte/char   4917.0 ns
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 181321, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/chinese.utf8.txt
+  27.369 GB/s (5.9 %)   27.369 Gc/s     1.00 byte/char   1656.2 ns
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 152721, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/czech.utf8.txt
+  26.755 GB/s (3.8 %)   26.755 Gc/s     1.00 byte/char   1427.0 ns
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 390368, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/english.utf8.txt
+  25.601 GB/s (1.7 %)   25.601 Gc/s     1.00 byte/char   3812.0 ns
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 86963, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.utf8.txt
+  26.931 GB/s (6.4 %)   26.931 Gc/s     1.00 byte/char    807.2 ns
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 446908, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.utf8.txt
+  27.648 GB/s (8.7 %)   27.648 Gc/s     1.00 byte/char   4041.0 ns
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 205779, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.utf8.txt
+  27.437 GB/s (8.2 %)   27.437 Gc/s     1.00 byte/char   1875.0 ns
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 181348, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/greek.utf8.txt
+  27.373 GB/s (3.8 %)   27.373 Gc/s     1.00 byte/char   1656.2 ns
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 190114, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hebrew.utf8.txt
+  27.159 GB/s (6.8 %)   27.159 Gc/s     1.00 byte/char   1750.0 ns
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 396593, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hindi.utf8.txt
+  27.511 GB/s (8.1 %)   27.511 Gc/s     1.00 byte/char   3604.0 ns
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 164355, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/japanese.utf8.txt
+  26.655 GB/s (5.0 %)   26.655 Gc/s     1.00 byte/char   1541.5 ns
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 97859, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/korean.utf8.txt
+  27.307 GB/s (6.6 %)   27.307 Gc/s     1.00 byte/char    895.9 ns
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 156209, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/persan.utf8.txt
+  27.367 GB/s (8.0 %)   27.367 Gc/s     1.00 byte/char   1427.0 ns
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 280660, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.utf8.txt
+  26.522 GB/s (5.1 %)   26.522 Gc/s     1.00 byte/char   2645.5 ns
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 407095, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/russian.utf8.txt
+  26.552 GB/s (4.7 %)   26.552 Gc/s     1.00 byte/char   3833.0 ns
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 593589, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/thai.utf8.txt
+  26.580 GB/s (1.9 %)   26.580 Gc/s     1.00 byte/char   5583.0 ns
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 195078, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/turkish.utf8.txt
+  26.907 GB/s (5.7 %)   26.907 Gc/s     1.00 byte/char   1812.5 ns
+input detected as UTF8
+===========================
+utf16_length_from_utf8+arm64, input size: 319029, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/vietnamese.utf8.txt
+  26.586 GB/s (4.0 %)   26.586 Gc/s     1.00 byte/char   3000.0 ns

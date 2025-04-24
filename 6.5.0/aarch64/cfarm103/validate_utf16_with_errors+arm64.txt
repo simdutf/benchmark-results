@@ -1,0 +1,80 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+Using ICU version 72.1
+Compiler: GCC 14.2.0
+SIMDUTF version: 6.5.0
+System: arm64
+===========================
+testcases: 18
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 849690, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/arabic.utf16.txt
+  33.595 GB/s (4.1 %)   16.798 Gc/s     2.00 byte/char  25292.0 ns
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 274418, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/chinese.utf16.txt
+  33.605 GB/s (5.1 %)   16.802 Gc/s     2.00 byte/char   8166.0 ns
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 287666, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/czech.utf16.txt
+  33.195 GB/s (2.3 %)   16.597 Gc/s     2.00 byte/char   8666.0 ns
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 775020, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/english.utf16.txt
+  33.098 GB/s (2.2 %)   16.549 Gc/s     2.00 byte/char  23416.0 ns
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 168252, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.utf16.txt
+  33.377 GB/s (5.7 %)   16.688 Gc/s     2.00 byte/char   5041.0 ns
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 869736, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.utf16.txt
+  34.164 GB/s (3.9 %)   17.082 Gc/s     2.00 byte/char  25458.0 ns
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 402432, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.utf16.txt
+  33.654 GB/s (3.4 %)   16.827 Gc/s     2.00 byte/char  11958.0 ns
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 286000, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/greek.utf16.txt
+  33.810 GB/s (4.4 %)   16.905 Gc/s     2.00 byte/char   8459.0 ns
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 292704, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hebrew.utf16.txt
+  33.776 GB/s (4.8 %)   16.888 Gc/s     2.00 byte/char   8666.0 ns
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 547918, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hindi.utf16.txt
+  33.633 GB/s (3.9 %)   16.817 Gc/s     2.00 byte/char  16291.0 ns
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 237784, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/japanese.utf16.txt
+  33.571 GB/s (3.6 %)   16.785 Gc/s     2.00 byte/char   7083.0 ns
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 145838, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/korean.utf16.txt
+  33.979 GB/s (4.8 %)   16.989 Gc/s     2.00 byte/char   4292.0 ns
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 249390, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/persan.utf16.txt
+  33.816 GB/s (2.6 %)   16.908 Gc/s     2.00 byte/char   7375.0 ns
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 547232, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.utf16.txt
+  33.591 GB/s (2.5 %)   16.795 Gc/s     2.00 byte/char  16291.0 ns
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 624076, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/russian.utf16.txt
+  33.657 GB/s (3.0 %)   16.829 Gc/s     2.00 byte/char  18542.0 ns
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 809518, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/thai.utf16.txt
+  33.614 GB/s (2.4 %)   16.807 Gc/s     2.00 byte/char  24083.0 ns
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 370886, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/turkish.utf16.txt
+  33.720 GB/s (1.0 %)   16.860 Gc/s     2.00 byte/char  10999.0 ns
+input detected as UTF16 little-endian
+===========================
+validate_utf16_with_errors+arm64, input size: 564840, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/vietnamese.utf16.txt
+  31.973 GB/s (0.8 %)   15.987 Gc/s     2.00 byte/char  17666.0 ns

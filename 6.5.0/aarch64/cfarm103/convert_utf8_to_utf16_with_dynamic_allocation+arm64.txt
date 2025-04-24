@@ -1,0 +1,80 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+Using ICU version 72.1
+Compiler: GCC 14.2.0
+SIMDUTF version: 6.5.0
+System: arm64
+===========================
+testcases: 18
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 533857, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/arabic.utf8.txt
+   2.344 GB/s (6.4 %)    1.866 Gc/s     1.26 byte/char 227708.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 181321, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/chinese.utf8.txt
+   2.501 GB/s (8.9 %)    1.893 Gc/s     1.32 byte/char  72499.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 152721, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/czech.utf8.txt
+   2.302 GB/s (0.6 %)    2.168 Gc/s     1.06 byte/char  66333.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 390368, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/english.utf8.txt
+   8.974 GB/s (2.8 %)    8.908 Gc/s     1.01 byte/char  43499.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 86963, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.utf8.txt
+   4.183 GB/s (2.7 %)    4.046 Gc/s     1.03 byte/char  20791.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 446908, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.utf8.txt
+   2.409 GB/s (6.1 %)    2.344 Gc/s     1.03 byte/char 185541.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 205779, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.utf8.txt
+   4.133 GB/s (3.3 %)    4.041 Gc/s     1.02 byte/char  49791.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 181348, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/greek.utf8.txt
+   2.854 GB/s (7.0 %)    2.250 Gc/s     1.27 byte/char  63541.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 190114, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hebrew.utf8.txt
+   2.412 GB/s (5.3 %)    1.856 Gc/s     1.30 byte/char  78833.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 396593, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hindi.utf8.txt
+   2.293 GB/s (3.7 %)    1.584 Gc/s     1.45 byte/char 172958.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 164355, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/japanese.utf8.txt
+   2.907 GB/s (3.7 %)    2.103 Gc/s     1.38 byte/char  56541.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 97859, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/korean.utf8.txt
+   2.339 GB/s (4.3 %)    1.743 Gc/s     1.34 byte/char  41833.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 156209, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/persan.utf8.txt
+   2.620 GB/s (6.0 %)    2.091 Gc/s     1.25 byte/char  59625.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 280660, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.utf8.txt
+   2.864 GB/s (4.4 %)    2.792 Gc/s     1.03 byte/char  98000.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 407095, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/russian.utf8.txt
+   2.296 GB/s (7.2 %)    1.760 Gc/s     1.30 byte/char 177333.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 593589, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/thai.utf8.txt
+   2.956 GB/s (5.3 %)    2.015 Gc/s     1.47 byte/char 200833.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 195078, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/turkish.utf8.txt
+   2.727 GB/s (0.8 %)    2.592 Gc/s     1.05 byte/char  71541.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf16_with_dynamic_allocation+arm64, input size: 319029, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/vietnamese.utf8.txt
+   1.603 GB/s (9.0 %)    1.419 Gc/s     1.13 byte/char 199041.0 ns

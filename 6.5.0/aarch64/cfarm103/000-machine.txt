@@ -1,0 +1,3 @@
+Machine cfarm103 from GCC compile farm (see: https://portal.cfarm.net/machines/list/)
+
+architecture: Apple Icestorm-M1 + Firestorm-M1

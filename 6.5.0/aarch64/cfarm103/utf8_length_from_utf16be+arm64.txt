@@ -1,0 +1,80 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+Using ICU version 72.1
+Compiler: GCC 14.2.0
+SIMDUTF version: 6.5.0
+System: arm64
+===========================
+testcases: 18
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 849688, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/arabic.utf16be.txt
+  10.248 GB/s (6.2 %)   10.248 Gc/s     1.00 byte/char  41458.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 274416, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/chinese.utf16be.txt
+   9.601 GB/s (1.2 %)    9.601 Gc/s     1.00 byte/char  14291.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 287664, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/czech.utf16be.txt
+   9.589 GB/s (0.9 %)    9.589 Gc/s     1.00 byte/char  14999.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 775018, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/english.utf16be.txt
+  10.254 GB/s (6.6 %)   10.254 Gc/s     1.00 byte/char  37791.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 168250, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.utf16be.txt
+  10.302 GB/s (4.3 %)   10.302 Gc/s     1.00 byte/char   8166.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 869734, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.utf16be.txt
+  10.252 GB/s (7.4 %)   10.252 Gc/s     1.00 byte/char  42416.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 402430, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.utf16be.txt
+  10.275 GB/s (7.2 %)   10.275 Gc/s     1.00 byte/char  19583.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 285998, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/greek.utf16be.txt
+   9.948 GB/s (4.2 %)    9.948 Gc/s     1.00 byte/char  14375.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 292702, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hebrew.utf16be.txt
+  10.301 GB/s (7.5 %)   10.301 Gc/s     1.00 byte/char  14208.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 547916, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hindi.utf16be.txt
+  10.258 GB/s (5.3 %)   10.258 Gc/s     1.00 byte/char  26708.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 237782, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/japanese.utf16be.txt
+   9.942 GB/s (1.2 %)    9.942 Gc/s     1.00 byte/char  11958.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 145836, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/korean.utf16be.txt
+  10.059 GB/s (3.1 %)   10.059 Gc/s     1.00 byte/char   7249.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 249388, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/persan.utf16be.txt
+  10.111 GB/s (3.0 %)   10.111 Gc/s     1.00 byte/char  12333.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 547230, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.utf16be.txt
+  10.261 GB/s (5.1 %)   10.261 Gc/s     1.00 byte/char  26666.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 624074, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/russian.utf16be.txt
+  10.259 GB/s (4.0 %)   10.259 Gc/s     1.00 byte/char  30416.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 809516, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/thai.utf16be.txt
+  10.247 GB/s (5.9 %)   10.247 Gc/s     1.00 byte/char  39499.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 370884, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/turkish.utf16be.txt
+  10.279 GB/s (4.9 %)   10.279 Gc/s     1.00 byte/char  18041.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+arm64, input size: 564838, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/vietnamese.utf16be.txt
+  10.270 GB/s (5.5 %)   10.270 Gc/s     1.00 byte/char  27500.0 ns
