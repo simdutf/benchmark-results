@@ -1,0 +1,103 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+Using ICU version 67.1
+Compiler: GCC 13.1.0
+SIMDUTF version: 6.5.0
+System: westmere
+===========================
+testcases: 18
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 1699376, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/arabic.utf32.txt
+   0.485 ins/byte,    0.270 cycle/byte,   12.318 GB/s (8.3 %),     3.328 GHz,    1.793 ins/cycle 
+   1.938 ins/char,    1.081 cycle/char,    3.080 Gc/s (8.3 %)     4.00 byte/char 137955.0 ns
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 548832, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/chinese.utf32.txt
+   0.485 ins/byte,    0.267 cycle/byte,   12.536 GB/s (3.1 %),     3.341 GHz,    1.820 ins/cycle 
+   1.940 ins/char,    1.066 cycle/char,    3.134 Gc/s (3.1 %)     4.00 byte/char  43781.0 ns
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 575328, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/czech.utf32.txt
+   0.485 ins/byte,    0.267 cycle/byte,   12.500 GB/s (7.0 %),     3.338 GHz,    1.816 ins/cycle 
+   1.940 ins/char,    1.068 cycle/char,    3.125 Gc/s (7.0 %)     4.00 byte/char  46026.0 ns
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 1550036, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/english.utf32.txt
+   0.485 ins/byte,    0.267 cycle/byte,   12.449 GB/s (6.8 %),     3.330 GHz,    1.812 ins/cycle 
+   1.939 ins/char,    1.070 cycle/char,    3.112 Gc/s (6.8 %)     4.00 byte/char 124511.0 ns
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 336500, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.utf32.txt
+   0.486 ins/byte,    0.269 cycle/byte,   12.461 GB/s (9.8 %),     3.347 GHz,    1.808 ins/cycle 
+   1.942 ins/char,    1.074 cycle/char,    3.115 Gc/s (9.8 %)     4.00 byte/char  27005.0 ns
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 1739468, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.utf32.txt
+   0.485 ins/byte,    0.267 cycle/byte,   12.486 GB/s (7.2 %),     3.329 GHz,    1.817 ins/cycle 
+   1.939 ins/char,    1.067 cycle/char,    3.121 Gc/s (7.2 %)     4.00 byte/char 139319.0 ns
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 804860, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.utf32.txt
+   0.485 ins/byte,    0.267 cycle/byte,   12.475 GB/s (5.5 %),     3.334 GHz,    1.814 ins/cycle 
+   1.940 ins/char,    1.069 cycle/char,    3.119 Gc/s (5.5 %)     4.00 byte/char  64520.0 ns
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 571996, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/greek.utf32.txt
+   0.485 ins/byte,    0.268 cycle/byte,   12.472 GB/s (4.5 %),     3.337 GHz,    1.813 ins/cycle 
+   1.941 ins/char,    1.070 cycle/char,    3.118 Gc/s (4.5 %)     4.00 byte/char  45862.0 ns
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 585404, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hebrew.utf32.txt
+   0.485 ins/byte,    0.264 cycle/byte,   12.645 GB/s (10.6 %),     3.336 GHz,    1.839 ins/cycle 
+   1.940 ins/char,    1.055 cycle/char,    3.161 Gc/s (10.6 %)     4.00 byte/char  46294.0 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 1095832, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hindi.utf32.txt
+   0.485 ins/byte,    0.265 cycle/byte,   12.593 GB/s (4.5 %),     3.332 GHz,    1.832 ins/cycle 
+   1.939 ins/char,    1.058 cycle/char,    3.148 Gc/s (4.5 %)     4.00 byte/char  87016.0 ns
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 475564, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/japanese.utf32.txt
+   0.485 ins/byte,    0.268 cycle/byte,   12.481 GB/s (9.2 %),     3.339 GHz,    1.813 ins/cycle 
+   1.941 ins/char,    1.070 cycle/char,    3.120 Gc/s (9.2 %)     4.00 byte/char  38103.0 ns
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 291672, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/korean.utf32.txt
+   0.486 ins/byte,    0.268 cycle/byte,   12.505 GB/s (14.2 %),     3.346 GHz,    1.816 ins/cycle 
+   1.944 ins/char,    1.070 cycle/char,    3.126 Gc/s (14.2 %)     4.00 byte/char  23325.0 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 498776, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/persan.utf32.txt
+   0.485 ins/byte,    0.265 cycle/byte,   12.604 GB/s (11.3 %),     3.340 GHz,    1.831 ins/cycle 
+   1.941 ins/char,    1.060 cycle/char,    3.151 Gc/s (11.3 %)     4.00 byte/char  39573.0 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 1094456, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.utf32.txt
+   0.485 ins/byte,    0.263 cycle/byte,   12.652 GB/s (7.2 %),     3.330 GHz,    1.842 ins/cycle 
+   1.939 ins/char,    1.053 cycle/char,    3.163 Gc/s (7.2 %)     4.00 byte/char  86508.0 ns
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 1248148, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/russian.utf32.txt
+   0.485 ins/byte,    0.269 cycle/byte,   12.359 GB/s (12.5 %),     3.330 GHz,    1.799 ins/cycle 
+   1.939 ins/char,    1.078 cycle/char,    3.090 Gc/s (12.5 %)     4.00 byte/char 100992.0 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 1619032, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/thai.utf32.txt
+   0.485 ins/byte,    0.265 cycle/byte,   12.546 GB/s (6.2 %),     3.329 GHz,    1.827 ins/cycle 
+   1.939 ins/char,    1.061 cycle/char,    3.137 Gc/s (6.2 %)     4.00 byte/char 129044.0 ns
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 741768, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/turkish.utf32.txt
+   0.485 ins/byte,    0.265 cycle/byte,   12.574 GB/s (8.8 %),     3.333 GHz,    1.829 ins/cycle 
+   1.940 ins/char,    1.060 cycle/char,    3.144 Gc/s (8.8 %)     4.00 byte/char  58992.0 ns
+input detected as UTF16 little-endian
+===========================
+convert_utf32_to_utf16le+westmere, input size: 1129676, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/vietnamese.utf32.txt
+   0.485 ins/byte,    0.265 cycle/byte,   12.585 GB/s (11.1 %),     3.331 GHz,    1.831 ins/cycle 
+   1.939 ins/char,    1.059 cycle/char,    3.146 Gc/s (11.1 %)     4.00 byte/char  89765.0 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).

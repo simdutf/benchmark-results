@@ -1,0 +1,103 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+Using ICU version 67.1
+Compiler: GCC 13.1.0
+SIMDUTF version: 6.5.0
+System: westmere
+===========================
+testcases: 18
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 849688, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/arabic.utf16be.txt
+   2.251 ins/byte,    0.725 cycle/byte,    4.593 GB/s (7.1 %),     3.329 GHz,    3.105 ins/cycle 
+   2.251 ins/char,    0.725 cycle/char,    4.593 Gc/s (7.1 %)     1.00 byte/char  92502.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 274416, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/chinese.utf16be.txt
+   2.252 ins/byte,    0.741 cycle/byte,    4.506 GB/s (12.5 %),     3.340 GHz,    3.038 ins/cycle 
+   2.252 ins/char,    0.741 cycle/char,    4.506 Gc/s (12.5 %)     1.00 byte/char  30452.0 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 287664, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/czech.utf16be.txt
+   2.252 ins/byte,    0.746 cycle/byte,    4.478 GB/s (8.7 %),     3.340 GHz,    3.019 ins/cycle 
+   2.252 ins/char,    0.746 cycle/char,    4.478 Gc/s (8.7 %)     1.00 byte/char  32119.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 775018, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/english.utf16be.txt
+   2.251 ins/byte,    0.725 cycle/byte,    4.593 GB/s (5.4 %),     3.331 GHz,    3.103 ins/cycle 
+   2.251 ins/char,    0.725 cycle/char,    4.593 Gc/s (5.4 %)     1.00 byte/char  84374.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 168250, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.utf16be.txt
+   2.254 ins/byte,    0.729 cycle/byte,    4.034 GB/s (3.2 %),     2.942 GHz,    3.090 ins/cycle 
+   2.254 ins/char,    0.729 cycle/char,    4.034 Gc/s (3.2 %)     1.00 byte/char  20856.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 869734, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.utf16be.txt
+   2.251 ins/byte,    0.725 cycle/byte,    4.592 GB/s (5.6 %),     3.330 GHz,    3.103 ins/cycle 
+   2.251 ins/char,    0.725 cycle/char,    4.592 Gc/s (5.6 %)     1.00 byte/char  94706.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 402430, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.utf16be.txt
+   2.252 ins/byte,    0.741 cycle/byte,    4.502 GB/s (7.4 %),     3.335 GHz,    3.040 ins/cycle 
+   2.252 ins/char,    0.741 cycle/char,    4.502 Gc/s (7.4 %)     1.00 byte/char  44692.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 285998, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/greek.utf16be.txt
+   2.253 ins/byte,    0.742 cycle/byte,    4.501 GB/s (11.5 %),     3.339 GHz,    3.036 ins/cycle 
+   2.253 ins/char,    0.742 cycle/char,    4.501 Gc/s (11.5 %)     1.00 byte/char  31773.0 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 292702, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hebrew.utf16be.txt
+   2.253 ins/byte,    0.745 cycle/byte,    4.483 GB/s (11.9 %),     3.340 GHz,    3.023 ins/cycle 
+   2.253 ins/char,    0.745 cycle/char,    4.483 Gc/s (11.9 %)     1.00 byte/char  32644.0 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 547916, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hindi.utf16be.txt
+   2.251 ins/byte,    0.732 cycle/byte,    4.549 GB/s (7.9 %),     3.331 GHz,    3.074 ins/cycle 
+   2.251 ins/char,    0.732 cycle/char,    4.549 Gc/s (7.9 %)     1.00 byte/char  60230.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 237782, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/japanese.utf16be.txt
+   2.253 ins/byte,    0.750 cycle/byte,    4.448 GB/s (12.9 %),     3.338 GHz,    3.002 ins/cycle 
+   2.253 ins/char,    0.750 cycle/char,    4.448 Gc/s (12.9 %)     1.00 byte/char  26727.0 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 145836, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/korean.utf16be.txt
+   2.255 ins/byte,    0.725 cycle/byte,    4.061 GB/s (3.1 %),     2.944 GHz,    3.110 ins/cycle 
+   2.255 ins/char,    0.725 cycle/char,    4.061 Gc/s (3.1 %)     1.00 byte/char  17955.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 249388, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/persan.utf16be.txt
+   2.253 ins/byte,    0.755 cycle/byte,    4.430 GB/s (13.4 %),     3.343 GHz,    2.985 ins/cycle 
+   2.253 ins/char,    0.755 cycle/char,    4.430 Gc/s (13.4 %)     1.00 byte/char  28149.0 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 547230, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.utf16be.txt
+   2.251 ins/byte,    0.732 cycle/byte,    4.554 GB/s (7.0 %),     3.334 GHz,    3.075 ins/cycle 
+   2.251 ins/char,    0.732 cycle/char,    4.554 Gc/s (7.0 %)     1.00 byte/char  60084.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 624074, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/russian.utf16be.txt
+   2.251 ins/byte,    0.730 cycle/byte,    4.569 GB/s (5.7 %),     3.334 GHz,    3.085 ins/cycle 
+   2.251 ins/char,    0.730 cycle/char,    4.569 Gc/s (5.7 %)     1.00 byte/char  68301.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 809516, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/thai.utf16be.txt
+   2.251 ins/byte,    0.725 cycle/byte,    4.591 GB/s (6.1 %),     3.329 GHz,    3.104 ins/cycle 
+   2.251 ins/char,    0.725 cycle/char,    4.591 Gc/s (6.1 %)     1.00 byte/char  88168.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 370884, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/turkish.utf16be.txt
+   2.252 ins/byte,    0.741 cycle/byte,    4.506 GB/s (5.5 %),     3.339 GHz,    3.039 ins/cycle 
+   2.252 ins/char,    0.741 cycle/char,    4.506 Gc/s (5.5 %)     1.00 byte/char  41158.0 ns
+input detected as unknown
+===========================
+utf8_length_from_utf16be+westmere, input size: 564838, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/vietnamese.utf16be.txt
+   2.251 ins/byte,    0.730 cycle/byte,    4.567 GB/s (6.3 %),     3.334 GHz,    3.083 ins/cycle 
+   2.251 ins/char,    0.730 cycle/char,    4.567 Gc/s (6.3 %)     1.00 byte/char  61844.0 ns

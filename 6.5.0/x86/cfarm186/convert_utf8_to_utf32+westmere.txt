@@ -1,0 +1,98 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+Using ICU version 67.1
+Compiler: GCC 13.1.0
+SIMDUTF version: 6.5.0
+System: westmere
+===========================
+testcases: 18
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 533857, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/arabic.utf8.txt
+   5.300 ins/byte,    3.445 cycle/byte,    0.965 GB/s (3.8 %),     3.326 GHz,    1.538 ins/cycle 
+   6.659 ins/char,    4.329 cycle/char,    0.768 Gc/s (3.8 %)     1.26 byte/char 553037.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 181321, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/chinese.utf8.txt
+   6.452 ins/byte,    5.135 cycle/byte,    0.648 GB/s (2.4 %),     3.327 GHz,    1.256 ins/cycle 
+   8.526 ins/char,    6.786 cycle/char,    0.490 Gc/s (2.4 %)     1.32 byte/char 279885.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 152721, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/czech.utf8.txt
+   6.665 ins/byte,    4.405 cycle/byte,    0.755 GB/s (2.4 %),     3.327 GHz,    1.513 ins/cycle 
+   7.077 ins/char,    4.677 cycle/char,    0.711 Gc/s (2.4 %)     1.06 byte/char 202181.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 390368, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/english.utf8.txt
+   1.806 ins/byte,    1.559 cycle/byte,    2.134 GB/s (1.9 %),     3.327 GHz,    1.158 ins/cycle 
+   1.819 ins/char,    1.571 cycle/char,    2.118 Gc/s (1.9 %)     1.01 byte/char 182957.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 86963, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.utf8.txt
+   4.796 ins/byte,    3.362 cycle/byte,    0.990 GB/s (3.8 %),     3.329 GHz,    1.427 ins/cycle 
+   4.958 ins/char,    3.475 cycle/char,    0.958 Gc/s (3.8 %)     1.03 byte/char  87825.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 446908, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.utf8.txt
+   5.798 ins/byte,    3.747 cycle/byte,    0.888 GB/s (3.7 %),     3.326 GHz,    1.547 ins/cycle 
+   5.958 ins/char,    3.851 cycle/char,    0.864 Gc/s (3.7 %)     1.03 byte/char 503505.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 205779, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.utf8.txt
+   4.665 ins/byte,    3.212 cycle/byte,    1.036 GB/s (2.9 %),     3.328 GHz,    1.453 ins/cycle 
+   4.771 ins/char,    3.284 cycle/char,    1.013 Gc/s (2.9 %)     1.02 byte/char 198597.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 181348, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/greek.utf8.txt
+   5.431 ins/byte,    3.648 cycle/byte,    0.912 GB/s (5.4 %),     3.328 GHz,    1.489 ins/cycle 
+   6.888 ins/char,    4.627 cycle/char,    0.719 Gc/s (5.4 %)     1.27 byte/char 198830.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 190114, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hebrew.utf8.txt
+   6.269 ins/byte,    4.104 cycle/byte,    0.811 GB/s (3.5 %),     3.327 GHz,    1.528 ins/cycle 
+   8.144 ins/char,    5.331 cycle/char,    0.624 Gc/s (3.5 %)     1.30 byte/char 234510.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 396593, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hindi.utf8.txt
+   5.511 ins/byte,    4.163 cycle/byte,    0.799 GB/s (2.8 %),     3.326 GHz,    1.324 ins/cycle 
+   7.978 ins/char,    6.027 cycle/char,    0.552 Gc/s (2.8 %)     1.45 byte/char 496438.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 164355, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/japanese.utf8.txt
+   6.218 ins/byte,    4.941 cycle/byte,    0.673 GB/s (5.3 %),     3.327 GHz,    1.258 ins/cycle 
+   8.596 ins/char,    6.830 cycle/char,    0.487 Gc/s (5.3 %)     1.38 byte/char 244109.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 97859, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/korean.utf8.txt
+   6.791 ins/byte,    5.110 cycle/byte,    0.651 GB/s (1.1 %),     3.328 GHz,    1.329 ins/cycle 
+   9.114 ins/char,    6.858 cycle/char,    0.485 Gc/s (1.1 %)     1.34 byte/char 150265.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 156209, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/persan.utf8.txt
+   5.877 ins/byte,    4.072 cycle/byte,    0.817 GB/s (5.5 %),     3.327 GHz,    1.443 ins/cycle 
+   7.362 ins/char,    5.101 cycle/char,    0.652 Gc/s (5.5 %)     1.25 byte/char 191180.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 280660, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.utf8.txt
+   5.493 ins/byte,    3.619 cycle/byte,    0.919 GB/s (5.0 %),     3.326 GHz,    1.518 ins/cycle 
+   5.634 ins/char,    3.712 cycle/char,    0.896 Gc/s (5.0 %)     1.03 byte/char 305346.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 407095, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/russian.utf8.txt
+   5.666 ins/byte,    3.824 cycle/byte,    0.870 GB/s (6.6 %),     3.326 GHz,    1.482 ins/cycle 
+   7.392 ins/char,    4.989 cycle/char,    0.667 Gc/s (6.6 %)     1.30 byte/char 468047.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 593589, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/thai.utf8.txt
+   4.842 ins/byte,    3.689 cycle/byte,    0.901 GB/s (3.7 %),     3.326 GHz,    1.312 ins/cycle 
+   7.101 ins/char,    5.411 cycle/char,    0.615 Gc/s (3.7 %)     1.47 byte/char 658511.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 195078, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/turkish.utf8.txt
+   5.806 ins/byte,    3.903 cycle/byte,    0.852 GB/s (1.4 %),     3.327 GHz,    1.487 ins/cycle 
+   6.108 ins/char,    4.106 cycle/char,    0.810 Gc/s (1.4 %)     1.05 byte/char 228865.0 ns
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+westmere, input size: 319029, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/vietnamese.utf8.txt
+   7.046 ins/byte,    5.482 cycle/byte,    0.607 GB/s (3.3 %),     3.327 GHz,    1.285 ins/cycle 
+   7.960 ins/char,    6.192 cycle/char,    0.537 Gc/s (3.3 %)     1.13 byte/char 525698.0 ns

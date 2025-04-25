@@ -1,0 +1,29 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+Using ICU version 67.1
+Compiler: GCC 13.1.0
+SIMDUTF version: 6.5.0
+System: westmere
+===========================
+testcases: 4
+input detected as UTF16 little-endian
+===========================
+convert_latin1_to_utf16+fallback, input size: 82168, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.latin1.txt
+   0.566 ins/byte,    0.710 cycle/byte,    4.152 GB/s (3.6 %),     2.948 GHz,    0.797 ins/cycle 
+   0.566 ins/char,    0.710 cycle/char,    4.152 Gc/s (3.6 %)     1.00 byte/char  19788.0 ns
+input detected as unknown
+===========================
+convert_latin1_to_utf16+fallback, input size: 432305, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.latin1.txt
+   0.563 ins/byte,    0.782 cycle/byte,    4.260 GB/s (10.0 %),     3.330 GHz,    0.720 ins/cycle 
+   0.563 ins/char,    0.782 cycle/char,    4.260 Gc/s (10.0 %)     1.00 byte/char 101491.0 ns
+input detected as unknown
+===========================
+convert_latin1_to_utf16+fallback, input size: 199331, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.latin1.txt
+   0.564 ins/byte,    0.488 cycle/byte,    6.853 GB/s (17.9 %),     3.345 GHz,    1.155 ins/cycle 
+   0.564 ins/char,    0.488 cycle/char,    6.853 Gc/s (17.9 %)     1.00 byte/char  29086.0 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).
+input detected as unknown
+===========================
+convert_latin1_to_utf16+fallback, input size: 271743, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.latin1.txt
+   0.564 ins/byte,    0.781 cycle/byte,    4.270 GB/s (4.4 %),     3.333 GHz,    0.722 ins/cycle 
+   0.564 ins/char,    0.781 cycle/char,    4.270 Gc/s (4.4 %)     1.00 byte/char  63643.0 ns

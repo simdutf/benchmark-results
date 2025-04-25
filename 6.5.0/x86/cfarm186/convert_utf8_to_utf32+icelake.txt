@@ -1,0 +1,80 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+Using ICU version 67.1
+Compiler: GCC 13.1.0
+SIMDUTF version: 6.5.0
+System: westmere
+===========================
+testcases: 18
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 533857, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/arabic.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 181321, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/chinese.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 152721, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/czech.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 390368, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/english.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 86963, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 446908, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 205779, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 181348, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/greek.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 190114, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hebrew.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 396593, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hindi.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 164355, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/japanese.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 97859, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/korean.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 156209, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/persan.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 280660, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 407095, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/russian.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 593589, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/thai.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 195078, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/turkish.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system
+input detected as UTF8
+===========================
+convert_utf8_to_utf32+icelake, input size: 319029, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/vietnamese.utf8.txt
+convert_utf8_to_utf32+icelake: unsupported by the system

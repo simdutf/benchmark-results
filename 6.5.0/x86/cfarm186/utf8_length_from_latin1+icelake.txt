@@ -1,0 +1,24 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+Using ICU version 67.1
+Compiler: GCC 13.1.0
+SIMDUTF version: 6.5.0
+System: westmere
+===========================
+testcases: 4
+input detected as UTF16 little-endian
+===========================
+utf8_length_from_latin1+icelake, input size: 82168, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.latin1.txt
+utf8_length_from_latin1+icelake: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_latin1+icelake, input size: 432305, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.latin1.txt
+utf8_length_from_latin1+icelake: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_latin1+icelake, input size: 199331, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.latin1.txt
+utf8_length_from_latin1+icelake: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_latin1+icelake, input size: 271743, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.latin1.txt
+utf8_length_from_latin1+icelake: unsupported by the system

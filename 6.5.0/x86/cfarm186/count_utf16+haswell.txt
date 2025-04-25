@@ -1,0 +1,80 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+Using ICU version 67.1
+Compiler: GCC 13.1.0
+SIMDUTF version: 6.5.0
+System: westmere
+===========================
+testcases: 18
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 849690, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/arabic.utf16.txt
+count_utf16+haswell: unsupported by the system
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 274418, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/chinese.utf16.txt
+count_utf16+haswell: unsupported by the system
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 287666, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/czech.utf16.txt
+count_utf16+haswell: unsupported by the system
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 775020, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/english.utf16.txt
+count_utf16+haswell: unsupported by the system
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 168252, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.utf16.txt
+count_utf16+haswell: unsupported by the system
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 869736, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.utf16.txt
+count_utf16+haswell: unsupported by the system
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 402432, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.utf16.txt
+count_utf16+haswell: unsupported by the system
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 286000, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/greek.utf16.txt
+count_utf16+haswell: unsupported by the system
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 292704, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hebrew.utf16.txt
+count_utf16+haswell: unsupported by the system
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 547918, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hindi.utf16.txt
+count_utf16+haswell: unsupported by the system
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 237784, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/japanese.utf16.txt
+count_utf16+haswell: unsupported by the system
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 145838, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/korean.utf16.txt
+count_utf16+haswell: unsupported by the system
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 249390, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/persan.utf16.txt
+count_utf16+haswell: unsupported by the system
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 547232, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.utf16.txt
+count_utf16+haswell: unsupported by the system
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 624076, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/russian.utf16.txt
+count_utf16+haswell: unsupported by the system
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 809518, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/thai.utf16.txt
+count_utf16+haswell: unsupported by the system
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 370886, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/turkish.utf16.txt
+count_utf16+haswell: unsupported by the system
+input detected as UTF16 little-endian
+===========================
+count_utf16+haswell, input size: 564840, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/vietnamese.utf16.txt
+count_utf16+haswell: unsupported by the system

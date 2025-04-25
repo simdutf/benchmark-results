@@ -1,0 +1,3 @@
+Machine cfarm186 from GCC compile farm (see: https://portal.cfarm.net/machines/list/)
+
+architecture: Intel Xeon

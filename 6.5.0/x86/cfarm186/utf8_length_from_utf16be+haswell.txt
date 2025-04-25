@@ -1,0 +1,80 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+Using ICU version 67.1
+Compiler: GCC 13.1.0
+SIMDUTF version: 6.5.0
+System: westmere
+===========================
+testcases: 18
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 849688, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/arabic.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 274416, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/chinese.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 287664, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/czech.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 775018, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/english.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 168250, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 869734, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 402430, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 285998, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/greek.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 292702, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hebrew.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 547916, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/hindi.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 237782, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/japanese.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 145836, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/korean.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 249388, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/persan.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 547230, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 624074, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/russian.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 809516, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/thai.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 370884, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/turkish.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system
+input detected as unknown
+===========================
+utf8_length_from_utf16be+haswell, input size: 564838, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/vietnamese.utf16be.txt
+utf8_length_from_utf16be+haswell: unsupported by the system

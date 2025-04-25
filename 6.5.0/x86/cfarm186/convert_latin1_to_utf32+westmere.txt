@@ -1,0 +1,31 @@
+We define the number of bytes to be the number of *input* bytes.
+We define a 'char' to be a code point (between 1 and 4 bytes).
+Using ICU version 67.1
+Compiler: GCC 13.1.0
+SIMDUTF version: 6.5.0
+System: westmere
+===========================
+testcases: 4
+input detected as UTF16 little-endian
+===========================
+convert_latin1_to_utf32+westmere, input size: 82168, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/esperanto.latin1.txt
+   1.316 ins/byte,    0.749 cycle/byte,    3.946 GB/s (8.9 %),     2.955 GHz,    1.757 ins/cycle 
+   1.316 ins/char,    0.749 cycle/char,    3.946 Gc/s (8.9 %)     1.00 byte/char  20825.0 ns
+input detected as unknown
+===========================
+convert_latin1_to_utf32+westmere, input size: 432305, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/french.latin1.txt
+   1.313 ins/byte,    0.863 cycle/byte,    3.894 GB/s (10.6 %),     3.361 GHz,    1.521 ins/cycle 
+   1.313 ins/char,    0.863 cycle/char,    3.894 Gc/s (10.6 %)     1.00 byte/char 111011.0 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).
+input detected as unknown
+===========================
+convert_latin1_to_utf32+westmere, input size: 199331, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/german.latin1.txt
+   1.314 ins/byte,    0.870 cycle/byte,    3.835 GB/s (21.1 %),     3.337 GHz,    1.510 ins/cycle 
+   1.314 ins/char,    0.870 cycle/char,    3.835 Gc/s (21.1 %)     1.00 byte/char  51980.0 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).
+input detected as unknown
+===========================
+convert_latin1_to_utf32+westmere, input size: 271743, iterations: 30000, dataset: /home/wojciechmula/unicode_lipsum/wikipedia_mars/portuguese.latin1.txt
+   1.314 ins/byte,    0.880 cycle/byte,    3.791 GB/s (20.4 %),     3.336 GHz,    1.493 ins/cycle 
+   1.314 ins/char,    0.880 cycle/char,    3.791 Gc/s (20.4 %)     1.00 byte/char  71675.0 ns
+WARNING: Measurements are noisy, try increasing iteration count (-I).
